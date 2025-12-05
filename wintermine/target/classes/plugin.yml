@@ -1,0 +1,27 @@
+name: Wintermine
+main: com.pilotplayz.wintermine.Wintermine
+version: 1.0.0
+api-version: '1.21'
+author: pilotplayz
+
+commands:
+  resetmine:
+    description: Reset the mine manually
+    usage: /resetmine
+    permission: wintermine.reset
+
+  mine1:
+    description: Set first corner of the mine region at your location
+    usage: /mine1
+    permission: wintermine.setmine
+
+  mine2:
+    description: Set second corner of the mine region at your location
+    usage: /mine2
+    permission: wintermine.setmine
+
+permissions:
+  wintermine.reset:
+    default: op
+  wintermine.setmine:
+    default: op

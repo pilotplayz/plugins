@@ -1,0 +1,13 @@
+mine:
+  world: world      # Name of the world (usually "world")
+  pos1:
+    x: 100
+    y: 30
+    z: 100
+  pos2:
+    x: 110
+    y: 40
+    z: 110
+
+# Auto reset interval in minutes
+auto-reset-minutes: 5
