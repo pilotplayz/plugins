@@ -1,0 +1,20 @@
+name: DuelArenas
+main: com.pilotplayz.duelarenas.DuelArenasPlugin
+version: 1.0.0
+api-version: 1.21
+author: PilotPlayz
+description: Simple 1v1 and 2v2 auto-start arena plugin for Paper 1.21.10
+
+commands:
+  arena1:
+    description: Configure the 1v1 arena
+    usage: /arena1 <setcenter|setspawn1|setspawn2|setradius> [value]
+    permission: duelarenas.admin
+  arena2:
+    description: Configure the 2v2 arena
+    usage: /arena2 <setcenter|setspawn1|setspawn2|setspawn3|setspawn4|setradius> [value]
+    permission: duelarenas.admin
+
+permissions:
+  duelarenas.admin:
+    default: op
